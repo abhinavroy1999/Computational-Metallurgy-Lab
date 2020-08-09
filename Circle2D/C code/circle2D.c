@@ -1,3 +1,10 @@
+/*--------------------------------------------------------------------------------------------------
+ Author: Abhinav Roy
+ Date: 09 Aug, 2020
+ 
+ Code to convert the cartesian coordinates to the polar coordinates and print the output for the 
+ coordinates into an output txt file.
+ --------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
