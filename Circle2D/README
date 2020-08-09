@@ -1,0 +1,34 @@
+*****************************************************************************************
+	DIRECTORY CONTAINING SOURCE CODE FOR PLOTTING A CIRCLE
+	(Octave script; C code accompanied with Gnuplot script)
+				AUTHOR: Abhinav Roy
+				DATE: 09 Aug, 2020
+*****************************************************************************************
+ABOUT THE CODE:
+This is the first assignment of the of the Computational Metallurgy Lab (MM3421).
+This assignment contains rudimentary exercise for converting the cartesian coordinates
+into polar coordinates and plotting a simple circle (of any convenient radius).
+
+OBJECTIVES:
+1. To get fimiliarized with computer programming and solving scientific problems using
+   computers.
+2. To get fimiliarized with OCTAVE/MATLAB language.  
+
+
+EXECUTION OF THE C CODE:
+(For Ubuntu 20.04 LTS)
+	
+To run the code manually:
+1. Compile the C code "circle2D.c" using a suitable compiler (gcc most preferentially).
+2. Execute "gnuplot" command (install gnuplot from apt-get terminal command if not installed).
+3. execute command: "load circle2D.plt".
+
+To run the the code automatically:
+1. execute the command: "chmod +x circle_program.sh".
+2. execute the command: "./circle_program.sh".
+
+EXECUTION OF THE OCTAVE CODE:
+
+1. Execute the "octave" command or open the Octave GUI software.
+2. Execute the "run circle2D.m" command from the Octave prompt.   
+*****************************************************************************************
