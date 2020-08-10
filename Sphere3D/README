@@ -1,0 +1,41 @@
+*****************************************************************************************
+	DIRECTORY CONTAINING SOURCE CODE FOR PLOTTING A SPHERE (3D)
+	(Octave script; C code accompanied with Gnuplot script)
+				AUTHOR: Abhinav Roy
+				DATE: 10 Aug, 2020
+*****************************************************************************************
+ABOUT THE CODE:
+
+This is the second assignment of the of the Computational Metallurgy Lab (MM3421).
+This assignment contains rudimentary exercise for converting the cartesian coordinates
+into polar coordinates and plotting a sphere (of any convenient radius). In case of the 
+Octave script, the "sphere" function is used and plotted using the "surf" function 
+
+OBJECTIVES:
+
+1. To get fimiliarized with computer programming and solving scientific problems using
+   computers.
+2. To get fimiliarized with OCTAVE/MATLAB language and scientific computing in C.  
+
+
+EXECUTION OF THE C CODE:
+(For Ubuntu 20.04 LTS)
+	
+To run the code manually:
+1. Compile the C code "sphere3D.c" using a suitable compiler (gcc most preferentially).
+2. Execute "gnuplot" command (install gnuplot from apt-get terminal command if not installed).
+3. execute command: "load sphere3D.plt".
+
+To run the the code automatically:
+1. execute the command: "chmod +x sphere_program.sh" to make the Shell script executable.
+2. execute the command: "./sphere_program.sh".
+
+**In case of any errors generated during the automated execution of the code using the Shell
+  script, check the "error_log.txt" file for any standard error messages produced during the
+  execution.
+     
+EXECUTION OF THE OCTAVE CODE:
+
+1. Execute the "octave" command or open the Octave GUI software.
+2. Execute the "run sphere3D.m" command from the Octave prompt.   
+*****************************************************************************************
