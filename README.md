@@ -4,4 +4,6 @@
 - This repository contains C source codes and Octave/Matlab scripts for the Assignment problems.
 - Codes distributed under MIT License.
 #### Assignment 1:
-- Printing a circle of any arbitrary radius using Octave script. (Supplementary C code also provided in a separate directory).
+- Printing a circle of any arbitrary radius using Octave script. Task to be acmplished by converting the cartesian coordinates to polar coordinates. (Supplementary C code also provided in a separate directory).
+#### Assignment 2:
+- Plotting a sphere (3D plot) of any arbitrary radius Octave Script. The "sphere" and "surf" function used for Octave scripting. (Supplementary C code provided in a separate directory for plotting uing polar coordinates) 
